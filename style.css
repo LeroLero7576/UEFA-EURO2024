@@ -176,7 +176,7 @@ body{
 
 .txtgrA,.txtgrB,.txtgrC,.txtgrD,.txtgrE,.txtgrF{
     background-color: #00a85d;
-    width: 398px;
+    width: 340px;
     cursor: pointer;
     
 }
@@ -192,7 +192,7 @@ body{
 .big-gropA,.big-gropB,.big-gropC,.big-gropD,.big-gropE,.big-gropF{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 340px;
     margin-left: 0px;
     border: solid .4px;
     color: #dbe8f1;
@@ -344,6 +344,7 @@ margin-top: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 340px;
 }
 
 .round1-txt {
