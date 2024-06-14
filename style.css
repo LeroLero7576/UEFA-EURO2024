@@ -345,6 +345,13 @@ margin-top: 35px;
     flex-direction: column;
     align-items: center;
     width: 340px;
+    
+}
+.round1-six:hover{
+    -webkit-transform:none; */
+    -ms-transform:none;
+    /* transform: scale(1.2); */
+    cursor: pointer;
 }
 
 .round1-txt {
@@ -415,6 +422,14 @@ margin-top: 35px;
 
 
     @media screen and (max-width: 1000px) {
+        .player-info:hover {
+            -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    cursor: pointer;
+        }
+        
+        
         .key-player {
             flex-direction: column;
             align-items: center;
@@ -428,7 +443,10 @@ margin-top: 35px;
         }
     }
  
-
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
 
       
         @media screen and (max-width: 1024px){.player-star {
@@ -584,5 +602,20 @@ margin-top: 35px;
 @media(max-width:860px){
     .bx1-3{
         display: none;
+    }
+}
+
+@media(max-width:400px){
+    .box1{
+        margin-left: -12px;
+    }
+}
+
+
+
+
+@media(max-width:400px){
+    .big-gropA,.big-gropB,.big-gropC,.big-gropD,.big-gropE,.big-gropF{
+        margin-left: -4px;
     }
 }
